@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEC Hackathon - Voice-Activated Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#team-details">Problem Statement</a></li>
+            <li><a href="#problem-statement">Project Description</a></li>
+            <li><a href="#project-description">Solution Proposed</a></li>
+            <li><a href="#solution-proposed">Architecture</a></li>
+            <li><a href="#architecture">Advantages</a></li>
+            <li><a href="#advantages">Constraints</a></li>
+            <li><a href="#constraints">Project Demonstraiton</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="voice-activated-website.html">Voice-Activated Website</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>WEC Hackathon - Voice-Activated Website</h1>
+        <h2>Brought to you by AITR ACM and ACM-W Student Chapter</h2>
+    </header>
+
+    <section id="speech-recognition">
+        <h2>Speech Recognition</h2>
+        <p>Available in Chrome 😎 Only</p>
+        <div class="container">
+            <div class="texts"></div>
+        </div>
+    </section>
+
+    <section id="team-details">
+        <h2>Team Details</h2>
+        <ul>
+            <li><strong>Team Name:</strong> Tech Infantry</li>
+            <li><strong>College:</strong> Oriental Institute of Science and Technology</li>
+            <li><strong>Stream:</strong> Computer Science Engineering</li>
+            <li><strong>Year of Graduation:</strong> 2027</li>
+        </ul>
+    </section>
+
+    <section id="problem-statement">
+        <h2>Problem Statement</h2>
+        <p>Many users face challenges when navigating websites due to mobility impairments.</p>
+        <ul>
+            <li>Accessibility barriers for users with disabilities.</li>
+            <li>Manual input limitations reduce inclusivity.</li>
+            <li>Existing solutions lack integrated web interactions.</li>
+        </ul>
+    </section>
+
+    <section id="project-description">
+        <h2>Project Description</h2>
+        <p>The project provides hands-free web navigation using speech recognition.</p>
+        <ul>
+            <li>Enhances accessibility.</li>
+            <li>Offers voice-controlled browsing.</li>
+            <li>Ensures security and reliability.</li>
+        </ul>
+    </section>
+
+    <section id="solution-proposed">
+        <h2>Solution Proposed</h2>
+        <h3>Technology Stack</h3>
+        <ul>
+            <li>Web Speech API for speech recognition.</li>
+            <li>Google Speech Recognition for improved accuracy.</li>
+            <li>Flask & Flask-CORS for backend processing.</li>
+        </ul>
+    </section>
+
+    <section id="architecture">
+        <h2>Architecture</h2>
+    
+        <details>
+            <summary>Frontend</summary>
+            <ul>
+                <li><strong>Technologies:</strong> HTML, CSS, JavaScript.</li>
+                <li><strong>Speech Recognition:</strong> Uses Web Speech API for voice commands.</li>
+            </ul>
+        </details>
+    
+        <details>
+            <summary>Backend</summary>
+            <ul>
+                <li><strong>Framework:</strong> Flask (Python) for processing requests.</li>
+                <li><strong>Database:</strong> Stores voice interaction history.</li>
+            </ul>
+        </details>
+    
+        <details>
+            <summary>Running the Server</summary>
+            <ul>
+                <li><strong>Command:</strong> <code>python app.py</code></li>
+                <li><strong>Access:</strong> Runs at <a href="http://127.0.0.1:5000" target="_blank">http://127.0.0.1:5000</a>.</li>
+            </ul>
+        </details>
+    
+        <details>
+            <summary>Workflow</summary>
+            <ol>
+                <li>User gives a voice command.</li>
+                <li>Frontend captures and sends it to Flask backend.</li>
+                <li>Backend processes and executes the command.</li>
+                <li>Response is returned to the frontend.</li>
+            </ol>
+        </details>
+    </section>
+    
+
+    <section id="advantages">
+        <h2>Advantages</h2>
+
+        <h3> 1. Accessibility & Inclusivity</h3>
+        <ul>
+            <li><strong>Hands-Free Navigation:</strong> Enables users with mobility impairments to browse effortlessly.</li>
+            <li><strong>Improved Digital Inclusion:</strong> Supports users who struggle with traditional input devices.</li>
+        </ul>
+
+        <h3> 2. Cost & Efficiency</h3>
+        <ul>
+            <li><strong>Cost-Effective Solution:</strong> Built using open-source technologies, reducing development expenses.</li>
+            <li><strong>Minimal Hardware Requirements:</strong> Works with standard microphones without requiring additional peripherals.</li>
+        </ul>
+
+        <h3> 3. Customization & Scalability</h3>
+        <ul>
+            <li><strong>Customizable Voice Commands:</strong> Users can modify commands to suit their preferences.</li>
+            <li><strong>Easy Integration:</strong> Can be implemented into existing websites with minimal modifications.</li>
+            <li><strong>Scalable Architecture:</strong> Can be expanded to support multiple languages and more complex voice interactions.</li>
+        </ul>
+
+        <h3> 4. Enhanced User Experience</h3>
+        <ul>
+            <li><strong>Faster Navigation:</strong> Voice commands streamline web interactions, improving efficiency.</li>
+            <li><strong>Engaging Interface:</strong> Makes browsing more interactive and intuitive.</li>
+        </ul>
+    </section>
+
+    <section id="constraints">
+        <h2>Project Constraints</h2>
+
+        <h3>1. Technical Limitations</h3>
+        <ul>
+            <li><strong>Voice Recognition Accuracy:</strong> Variations in accents, speech clarity, and background noise can impact performance.</li>
+            <li><strong>Hardware Dependence:</strong> Requires a device with a high-quality microphone for optimal voice recognition.</li>
+        </ul>
+
+        <h3>2. Connectivity Challenges</h3>
+        <ul>
+            <li><strong>Internet Dependency:</strong> A stable and high-speed internet connection is essential for real-time speech processing.</li>
+            <li><strong>Latency Issues:</strong> Delays in speech recognition may occur due to network speed fluctuations.</li>
+        </ul>
+
+        <h3>3. Usability Considerations</h3>
+        <ul>
+            <li><strong>Learning Curve:</strong> Users unfamiliar with voice commands may require time to adapt.</li>
+            <li><strong>Limited Offline Functionality:</strong> Voice commands may not work effectively without an internet connection.</li>
+        </ul>
+    </section>
+
+    <section id="video">
+        <h2>Project Demonstration</h2>
+        <p><a href="https://drive.google.com/file/d/1DVVvid3VaO_X98sI_ClhdH2YtOT8-Hx_/view?usp=sharing" target="_blank">Watch Demo</a></p>
+    </section>
+
+    <footer>
+        <h2>Thank You</h2>
+        <p>For more details, reach out to our team.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
