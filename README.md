@@ -11,6 +11,12 @@ This project is a **voice-activated website** designed to help users navigate an
 - **Hands-Free Interaction** with form filling and page navigation
 - **Multi-Language Support** for global accessibility
 - **Smooth UI with Animations** using CSS & JavaScript
+- **Continuous Speech Recognition** – Listens for commands continuously unless stopped.
+- **Dynamic Section Navigation** – Allows users to navigate to specific sections by name.
+- **Expand/Collapse Content** – Users can expand and collapse sections using voice commands.
+- **Real-Time Response** – Provides immediate feedback based on spoken input.
+- **Adaptive Learning** – Expands all nested details inside sections when requested.
+- **Secure and Privacy-Focused** – No data is stored or transmitted.
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +55,10 @@ This project is a **voice-activated website** designed to help users navigate an
    - "Scroll down" → Scrolls the page down
    - "Scroll up" → Scrolls the page up
    - "Go to team details" → Navigates to the section
+   - "Expand problem statement" → Expands the problem statement section
+   - "Collapse architecture" → Collapses the architecture section
 3. Say "Stop" to disable voice recognition.
+4. If speech recognition stops unintentionally, it will automatically restart unless manually stopped.
 
 ## 📍 MVP Link
 
