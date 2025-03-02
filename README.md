@@ -28,7 +28,7 @@ This project is a **voice-activated website** designed to help users navigate an
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/ShubhamMallick/Voice_Activated_Website
    cd your-repository
    ```
 2. **Open `index.html` in a browser** (No server setup required)
@@ -44,7 +44,6 @@ This project is a **voice-activated website** designed to help users navigate an
 │── index.html      # Main HTML file
 │── style.css       # CSS Stylesheet
 │── script.js       # JavaScript for speech recognition
-│── assets/         # (Optional) Images, icons, etc.
 └── README.md       # Project Documentation
 ```
 
