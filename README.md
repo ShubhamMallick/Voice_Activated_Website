@@ -61,7 +61,7 @@ This project is a **voice-activated website** designed to help users navigate an
 
 ## 📍 MVP Link
 
-🚀 **Live Demo:** voicenav.netlify.app
+🚀 **Live Demo:** voicenav.netlify.app(Only Chrome)
 
 ## 📜 License
 
