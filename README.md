@@ -1,4 +1,4 @@
-# Voice-Activated Web Navigation
+# Voice-Activated Website
 
 ## 🚀 Project Overview
 
